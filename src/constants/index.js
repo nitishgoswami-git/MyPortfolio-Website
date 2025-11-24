@@ -19,7 +19,7 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-   img: "/icons/nav/brightness.svg",
+    img: "/icons/nav/brightness.svg",
   },
   {
     id: 2,
@@ -219,7 +219,7 @@ const WORK_LOCATION = {
   id: 1,
   type: "work",
   name: "Work",
-  icon: "/icons/work.svg",
+  icon: "/icons/folder/work.svg",
   kind: "folder",
   children: [
     // ▶ Project 1
@@ -387,7 +387,7 @@ const ABOUT_LOCATION = {
   id: 2,
   type: "about",
   name: "About me",
-  icon: "/icons/info.svg",
+  icon: "/icons/folder/info.svg",
   kind: "folder",
   children: [
     {
@@ -440,7 +440,7 @@ const RESUME_LOCATION = {
   id: 3,
   type: "resume",
   name: "Resume",
-  icon: "/icons/file.svg",
+  icon: "/icons/folder/file.svg",
   kind: "folder",
   children: [
     {
@@ -459,7 +459,7 @@ const TRASH_LOCATION = {
   id: 4,
   type: "trash",
   name: "Trash",
-  icon: "/icons/trash.svg",
+  icon: "/icons/folder/trash.svg",
   kind: "folder",
   children: [
     {
@@ -501,6 +501,7 @@ const WINDOW_CONFIG = {
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+
 };
 
 export { INITIAL_Z_INDEX, WINDOW_CONFIG };

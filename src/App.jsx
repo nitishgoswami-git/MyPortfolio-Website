@@ -1,5 +1,5 @@
 import { Dock, Navbar, Welcome } from '#components'
-import { Terminal } from '#windows'
+import { Chrome, Finder, Resume, Terminal, TextViewer,ImageViewer, Contact } from '#windows'
 
 
 import React from 'react'
@@ -12,11 +12,17 @@ gsap.registerPlugin(Draggable)
 
 function App() {
   return (
-    <main>
+    <main className='bg-amber-900'>
       <Navbar />
       <Welcome />
       <Dock />
       <Terminal/>
+      <Chrome/>
+      <Resume/>
+      <Finder/>
+      <TextViewer/>
+      <ImageViewer/>
+      <Contact/>
     </main>
   )
 }

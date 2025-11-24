@@ -1,7 +1,6 @@
 import { WindowControls } from '#components'
 import { techStack } from '#constants'
 import WindowWrapper from '#hoc/WindowWrapper'
-import useWindowStore from '#store/window'
 import { useGSAP } from '@gsap/react'
 import { Check, Flag } from 'lucide-react'
 import React from 'react'
