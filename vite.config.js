@@ -8,6 +8,7 @@ import { fileURLToPath } from 'url'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [    tailwindcss(),react()],
+  base : process.env.VITE_BASE_PATH || "/PixelOS",
   resolve : {
     alias: {
       '#components' : resolve(dirname(fileURLToPath(import.meta.url)),'src/components'),
