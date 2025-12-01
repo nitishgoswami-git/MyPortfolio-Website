@@ -18,7 +18,7 @@ function Navbar() {
                         ))
                     }
                 </ul>
-                <p>Nitish's portfolio</p>
+                <p>Nitish's porject</p>
                 
             </div>
             <time className='!pr-[13%]'>

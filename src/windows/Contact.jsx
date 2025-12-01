@@ -11,7 +11,7 @@ function Contact() {
         <WindowControls target='contact'/>
     </div>
     <div className="p-5 space-y-5">
-        <img src="images/adrian.jpg" alt=""  className='w-20 rounded-full'/>
+        <img src="images/nitish.jpg" alt=""  className='w-20 rounded-full'/>
         <h3>
             Let's Connect
         </h3>

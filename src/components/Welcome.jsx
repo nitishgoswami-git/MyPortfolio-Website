@@ -76,14 +76,14 @@ function Welcome() {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey , I am Nitish! Welcome to my",
+          "Hey , I am Nitish! Welcome to",
           "text-3xl font-georama",
           100
         )}
       </p>
       <h1 className="mt-7" ref={titleRef}>
         {renderText(
-          "PORTFOLIO",
+          "PIXELOS",
           "text-9xl italic font-georama",400
         )}
       </h1>
